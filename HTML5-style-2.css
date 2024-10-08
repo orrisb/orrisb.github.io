@@ -9,7 +9,7 @@ header, footer, section, article, nav { display:block;
 }
 /*remove the # from #header*/
 header {width:920px; height:180px; /* padding:0; border:10px white solid; */ background: url(header3.jpg); margin:10px auto;
-        padding: .3em .8em;
+     padding: .3em .8em;
      border: 1px solid rgba(0,0,0,.1);
      background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent);
      border-radius: .2em;
