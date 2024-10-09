@@ -16,7 +16,7 @@ header {width:920px; height:180px; /* padding:0; border:10px white solid; */ bac
      box-shadow: 0 .05em .25em rgba(0,0,0,.5);
      color: white;
      text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
-     font-size: 300%;
+     font-size: 125%;
      line-height: 1.5;
      border-width: 10px;
      border-left-width: 0;
@@ -37,20 +37,11 @@ h3 { font-size:large; color:white; margin:0 0 6px 0;
 }
 #midcol { 	margin-left:315px; margin-right:145px; margin-top:10px; vertical-align:top; 
 }
+.button { position: relative;
+     /* text color, paddings, e.t.c. /                                       */
+        }
 /*set nav block position and width*/
 nav { margin:10px 30px 0 10px; width:135px; float:right; 
-     padding: .3em .8em;
-     border: 1px solid rgba(0,0,0,.1);
-     background: #58a linear-gradient(hsla(0,0%,100%,.2),transparent);
-     border-radius: .2em;
-     box-shadow: 0 .05em .25em rgba(0,0,0,.5);
-     color: white;
-     text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
-     font-size: 125%;
-     line-height: 1.5;
-     border-width: 10px;
-     border-left-width: 0;
-     transform: skewX(-45deg)
 }
 nav ul { margin:10px 0 10px 0; width:135px; float:right;
 }
