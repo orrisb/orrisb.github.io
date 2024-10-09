@@ -30,6 +30,7 @@ header {width:920px; height:180px;  padding:0; border:10px white solid;  backgro
      border-width: 10px;
      border-left-width: 0;
 }
+/*
 h1 { font-size:125%; color :white; position: relative; left:90px; top: 55px; width:480px; 
      padding: .3em .8em;
      border-radius: .2em;
@@ -41,6 +42,7 @@ h1 { font-size:125%; color :white; position: relative; left:90px; top: 55px; wid
      border-width: 10px;
      border-left-width: 0;
 }
+     */
 #rosette { position:relative; left:750px; top:5px; 
 }
 #content { background-color:transparent; border-left:10px white solid; border-right:10px white solid; 
