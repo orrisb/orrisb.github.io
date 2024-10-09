@@ -1,4 +1,14 @@
-
+@font-face {
+     font-family: Ampersand;
+     src: local('Baskerville-Italic'),
+          local('Goudy)ldStyleT-Italic'),
+          local('Palatino-Italic'),
+          local('BookAntiqua-Italic');
+     unicode-range: U+26;
+    }
+    h1 {
+     font-family: Ampersand, Helvetica, sans-serif;
+    }
 /*equalise for various browsers and change #header to header*/
 div body header #content { margin:0; padding:0; border:0;
 }
@@ -21,6 +31,15 @@ header {width:920px; height:180px;  padding:0; border:10px white solid;  backgro
      border-left-width: 0;
 }
 h1 { font-size:125%; color :white; position: relative; left:90px; top: 55px; width:480px; 
+     padding: .3em .8em;
+     border-radius: .2em;
+     box-shadow: 0 .05em .25em rgba(0,0,0,.5);
+     color: white;
+     text-shadow: 0 -.05em .05em rgba(0,0,0,.5);
+     font-size: 125%;
+     line-height: 1.5;
+     border-width: 10px;
+     border-left-width: 0;
 }
 #rosette { position:relative; left:750px; top:5px; 
 }
