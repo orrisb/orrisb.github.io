@@ -8,10 +8,9 @@ body { background:#FFF url(green-grad.jpg) repeat-x; margin: auto;
 header, footer, section, article, nav { display:block; 
 }
 /*remove the # from #header*/
-header {width:920px; height:180px; /* padding:0; border:10px white solid; */ background: linear-gradient(white, white) padding-box, url(header3.jpg) border-box 0 / cover; margin:10px auto;
+header {width:920px; height:180px;  padding:0; border:10px white solid;  background: linear-gradient(white, white) padding-box, url(header3.jpg) border-box 0 / cover; margin:10px auto;
      border: 1em solid transparent;
-     padding: 1em;
-     
+     padding: .3em .8em;
      border-radius: .2em;
      box-shadow: 0 .05em .25em rgba(0,0,0,.5);
      color: white;
@@ -23,7 +22,8 @@ header {width:920px; height:180px; /* padding:0; border:10px white solid; */ bac
 }
 h1 { font-size:125%; color :white; position: relative; left:90px; top: 55px; width:480px; 
 }
-#rosette { position:relative; left:750px; top:5px; }
+#rosette { position:relative; left:750px; top:5px; 
+}
 #content { background-color:transparent; border-left:10px white solid; border-right:10px white solid; 
 border-bottom:10px white solid; width: 904px; margin-top:-10px; margin-left:auto; margin-right:auto; padding:8px; font-size:medium; color:maroon; 
 }
@@ -39,9 +39,10 @@ h3 { font-size:large; color:white; margin:0 0 6px 0;
 }
 .button { position: relative;
      /* text color, paddings, e.t.c. /                                       */
-        }
+     }
+
 /*set nav block position and width*/
-nav { margin:10px 30px 0 10px; width:135px; float:right; 
+          nav { margin:10px 30px 0 10px; width:135px; float:right; 
 }
 nav ul { margin:10px 0 10px 0; width:135px; float:right;
 }
