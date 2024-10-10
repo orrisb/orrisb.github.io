@@ -12,7 +12,7 @@
 /*equalise for various browsers and change #header to header*/
 div body header #content { margin:0; padding:0; border:0;
 }
-body { 
+body { display: flex;
      background:#FFF url(green-grad.jpg) repeat-x; margin: auto;
      padding: .3em .8em;
      border-radius: .2em;
