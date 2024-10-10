@@ -88,8 +88,8 @@ h3 { font-size:large; color:white; margin:0 0 6px 0;
 
 .button { position: relative;
      /* text color, paddings, e.t.c. */
-     margin-bottom: .2em;
-     transform: skewX(-45deg);
+     margin-bottom: .3em;
+     transform: skewX(-5deg);
      padding: .3em .8em;
      border-radius: .2em;
      box-shadow: 0 .05em .25em rgba(0,0,0,.5);
