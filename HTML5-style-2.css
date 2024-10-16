@@ -3,7 +3,7 @@ div body header #content { margin:0; padding:0; border:0;
 }
 body { background:#FFF url(green-grad.jpg) repeat-x; margin:auto;
 }
-body { width: 31.25em; margin:auto;}
+body { width: 31.25em; margin:auto; padding: .3em .8em;}
 /*add display attributes for the semantic tags*/
 header, footer, section, article, nav { display:block; 
 }
