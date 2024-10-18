@@ -34,7 +34,7 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
 }
 
 #rosette { position:relative; left:750px; top:5px; }
-#content { background-color:transparent; border-left:10px white solid; border-right:10px white solid; 
+#content { background-color:transparent; border-left: 0.625em white solid; border-right:10px white solid; 
 border-bottom: 0.625em white solid; width: 904px; margin-top:-10px; margin-left:auto; margin-right:auto; padding:8px; font-size:medium; color:maroon; 
 }
 /*
