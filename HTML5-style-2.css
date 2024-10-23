@@ -4,7 +4,7 @@ div body header #content { margin:0; padding:0; border:0;
 body { background:#FFF url(green-grad.jpg) repeat-x; margin:auto;
 }
 
-body { width: 41.25em; margin:auto; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); border-radius: .2em; 
+body { width: 50.625em; margin:auto; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 100%; line-height: 1.5;}
 /*
 div#container { width: 50.375em;}
@@ -17,7 +17,7 @@ header { background-color:#FF9966;  text-align:center; margin:auto; padding: .3e
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;
 }
 
-header {width:31.25em; padding:0; border: 0.625em white solid; background: url(header3.jpg); margin:0.625em auto; } 
+header {width:41.25em; padding:0; border: 0.625em white solid; background: url(header3.jpg); margin:0.625em auto; } 
 
 h1 { color :white; border: 1px solid rgba(0,0,0,.1); background: rgba(0,0,0,.5);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 160%; margin-top: 0.313em; line-height: 1.5; }
@@ -80,4 +80,33 @@ br.clear { 	clear:both;
 footer { clear:both; color:maroon; text-align:center; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: #58a linear-gradient(hsla(0,0%,100%,.2), transparent);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;
 }
- 
+ /*  nav style css */
+ #container { width:780px; margin:auto; 
+ }
+ #content { width:640px; margin-left:140px;
+ }
+ header, nav, footer, article, section { display:block; 
+ }
+ header { width:780px; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
+ }
+ article { float:left; width:190px; margin:0 0 0 10px; padding:6px;
+ }
+ footer { clear:both; background-color:#FF9966; text-align:center; width:780px; margin:auto;
+ }
+ p { margin-top:5px; margin-bottom:5px; 
+ }
+ /* set navigation menu position and style*/
+ nav { float:left; width:130px; background-color : white; margin: 0 7px 5px -30px; 
+ }
+ nav ul {float:left; width:130px;} 
+ /* set general side button styles */
+ nav li { margin-bottom: 3px; text-align: center; list-style-type:none; width:125px;}
+ /* set general anchor styles */
+ nav li a	{ display: block; color: white; font-weight: bold; text-decoration: none }
+ /* specify state styles... */
+ /* mouseout (default) */
+ nav li a { background:#946055; color: white; border: 5px outset #C96E6B;}
+ /* mouseover */
+ nav li a:hover	{ background: #9F7562;   border: 5px outset #C96E6B;}
+ /* omousedown */
+ nav li a:active { background:maroon;  border: 5px inset maroon }
