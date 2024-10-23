@@ -87,11 +87,11 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
  }
  header, nav, footer, article, section { display:block; 
  }
- header { width:780px; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
+ header { width: 38.75em; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
  }
- article { float:left; width: 31.875em; margin:0 0 0 10px; padding:6px;
+ article { float: right; width: 31.875em; margin:50px 0 0 0px; padding:6px;
  }
- footer { clear:both; background-color:#FF9966; text-align:center; width:780px; margin:auto;
+ footer { clear:both; background-color:#FF9966; text-align:center; width: 38.75em; margin:auto;
  }
  p { margin-top:5px; margin-bottom:5px; 
  }
@@ -109,4 +109,4 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
  /* mouseover */
  nav li a:hover	{ background: #9F7562;   border: 5px outset #C96E6B;}
  /* omousedown */
- nav li a:active { background:maroon;  border: 5px inset maroon }
+ nav li a:active { background:maroon;  border: 5px inset maroon; }
