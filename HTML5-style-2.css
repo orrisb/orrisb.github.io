@@ -1,3 +1,5 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section { display:block; }
+
 /*equalise for various browsers and change #header to header*/
 div body header #content { margin:0; padding:0; border:0; 
 }
@@ -85,8 +87,7 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
  }
  #content { width:640px; margin-left:140px;
  }
- header, nav, footer, article, section { display:block; 
- }
+
  header { width: 38.75em; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
  }
  article { float: right; width: 31.875em; margin:50px 0 0 0px; padding:6px;
