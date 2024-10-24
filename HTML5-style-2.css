@@ -14,12 +14,7 @@ add display attributes for the semantic tags*/
 header, footer, section, article, nav { display:block; 
 }
 
-/*remove the # from #header*/
-header { background-color:#FF9966;  text-align:center; margin:auto; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: rgba(0,0,0,.5);border-radius: .2em; 
-box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;
-}
-
-header {width:41.25em; padding:0; border: 0.625em white solid; background: url(header3.jpg); margin:0.625em auto; } 
+header {padding:0; border: 0.625em white solid; background: url(header3.jpg); margin:0.625em auto; } 
 
 h1 { color :white; border: 1px solid rgba(0,0,0,.1); background: rgba(0,0,0,.5);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 100%; margin-top: 0.313em; line-height: 1.5; }
@@ -82,22 +77,25 @@ br.clear { 	clear:both;
 footer { clear:both; color:maroon; text-align:center; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: #58a linear-gradient(hsla(0,0%,100%,.2), transparent);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;
 }
- /*  nav style css */
+ /*  nav style css *
  #container { width:780px; margin:auto; 
  }
  #content { width:640px; margin-left:140px;
  }
-
+/*
  header { width: 38.75em; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
  }
+ */
  article { float: right; width: 31.875em; margin:50px 0 0 0px; padding:6px;
  }
+ */
  footer { clear:both; background-color:#FF9966; text-align:center; width: 38.75em; margin:auto;
  }
+ 
  p { margin-top:5px; margin-bottom:5px; 
  }
  /* set navigation menu position and style*/
- nav { float:left; width:130px; /* background-color : white; */ margin: 0 7px 5px -30px; 
+ nav { /* float:left; width:130px;  background-color : white; */ margin: 0 7px 5px -30px; 
  }
  nav ul {float:left; width:130px;} 
  /* set general side button styles */
@@ -137,12 +135,12 @@ article,
 nav {
     display: block;
 }
-
+/*
 #container {
     margin-left: 20px;
     margin-top: 20px;
 }
-
+*/
 nav {
     width: 140px;
 }
@@ -168,7 +166,7 @@ nav li a {
     zoom: 1;
 }
 
-/* mouseout (default) */
+/* mouseout (default) *
 nav li a {
     background: #946055;
     border: 4px outset #c96e6b;
