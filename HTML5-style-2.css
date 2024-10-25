@@ -1,5 +1,10 @@
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section { display:block; }
-
+header,
+footer,
+section,
+article,
+nav {
+    display: block;
+}
 body {
     background: #FFF url(green-grad.jpg) repeat-x;
     margin: auto;
@@ -25,9 +30,14 @@ header {
     padding: 0;
     border: 0.625em white solid;
     background: url(header3.jpg);
-    margin: 0.625em auto;
+    margin: auto;
 }
-
+ nav {
+     float: left;
+     width: 25%;
+     /* background-color: #FF9966; */
+     margin-bottom: 10px;
+ }
 
 
 
@@ -62,29 +72,29 @@ h3 { font-size:large; color:white; margin:0 0 6px 0;
 }*/
 #midcol { 	margin-left:315px; margin-right:145px; margin-top:10px; vertical-align:top; 
 }
- nav { float:left; width:25%; /* background-color: #FF9966; */ margin-bottom:10px; }
-/*set nav block position and width*/
+
+/*set nav block position and width*
 nav { margin:10px 30px 0 10px; width:135px; float:right; 
 }
 nav ul { margin:10px 0 10px 0; width:135px; float:right;
 }
-/*Set un-ordered list style within the menu block only. This removes bullets*/
+/*Set un-ordered list style within the menu block only. This removes bullets*
 nav li { list-style-type:none; 
 }	
-/* set general side button styles */
+/* set general side button styles *
 li.btn { margin-bottom: 3px; text-align: center; width:130px;
 }
-/* set general anchor styles and include the zoom fix for IE6*/
+/* set general anchor styles and include the zoom fix for IE6*
 li.btn a { display: block; color: white; font-weight: bold; text-decoration: none; zoom:1;
 }
 /* specify mouse state styles */
-/* mouseout (default) */
+/* mouseout (default) *
 li.btn a { background:#559a55; color: white; border: 5px outset #559a55; padding-bottom:3px;
 }
-/* mouseover */
+/* mouseover *
 li.btn a:hover { background: red;  color:white; border: 5px outset red;
 }
-/*mouse active*/
+/*mouse active*
 li.btn a:active { background:maroon;  border: 5px inset maroon; 
 }
 br.clear { 	clear:both; 
@@ -111,20 +121,20 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
  
  p { margin-top:5px; margin-bottom:5px; 
  }
- /* set navigation menu position and style*/
- nav { /* float:left; width:130px;  background-color : white; */ margin: 0 7px 5px -30px; 
+ /* set navigation menu position and style*
+ nav { /* float:left; width:130px;  background-color : white; * margin: 0 7px 5px -30px; 
  }
  nav ul {float:left; width:130px;} 
- /* set general side button styles */
+ /* set general side button styles *
  nav li { margin-bottom: 3px; text-align: center; list-style-type:none; width:125px;}
- /* set general anchor styles */
+ /* set general anchor styles *
  nav li a	{ display: block; color: white; font-weight: bold; text-decoration: none }
  /* specify state styles... */
- /* mouseout (default) */
+ /* mouseout (default) *
  nav li a { background:#946055; color: white; border: 5px outset #C96E6B;}
- /* mouseover */
+ /* mouseover *
  nav li a:hover	{ background: #9F7562;   border: 5px outset #C96E6B;}
- /* omousedown */
+ /* omousedown *
  nav li a:active { background:maroon;  border: 5px inset maroon; }
 
 /*   inset-active-css  */
@@ -145,19 +155,13 @@ li {
     margin: 0;
 }
 
-header,
-footer,
-section,
-article,
-nav {
-    display: block;
-}
+
 /*
 #container {
     margin-left: 20px;
     margin-top: 20px;
 }
-*/
+*
 nav {
     width: 140px;
 }
