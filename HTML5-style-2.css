@@ -165,7 +165,7 @@ article {
     box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
     color: white;
     text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-    font-size: 70%;
+    font-size: 100%;
     text-align: center;
     line-height: 1.5;
 }
