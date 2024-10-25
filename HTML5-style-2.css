@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    width: 31.25em;
+    width: 41.25em;
     margin: auto;
     padding: .3em .8em;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -39,16 +39,30 @@ header {
      margin-bottom: 10px;
  }
 
-
+article {
+    float: right;
+    width: 70%;
+    background-color: #FF9966;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: .3em .8em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 125%;
+    text-align: center;
+    line-height: 1.5;
+}
 
  
 
 h1 { color :white; border: 1px solid rgba(0,0,0,.1); background: rgba(0,0,0,.5);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 100%; margin-top: 0.313em; line-height: 1.5; }
 
-article { background-color:#FF9966; text-align:center; margin-bottom:10px;padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: #58a linear-gradient(hsla(0,0%,100%,.2), transparent);border-radius: .2em; 
-box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; text-align: center; line-height: 1.5;
-    }
+
 
 footer { clear:both; background-color:#FF9966; text-align:center; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: #58a linear-gradient(hsla(0,0%,100%,.2), transparent);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;}
@@ -56,66 +70,6 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
 h2 { font-weight:bold; margin-top:0; margin-bottom:0; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: rgba(0,0,0,.5);border-radius: .2em; 
 box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 130%; line-height: 1.5;
 }
-
-#rosette { position:relative; left:750px; top:5px; }
-#content { background-color:transparent; border-left: 0.625em white solid; border-right:10px white solid; 
-border-bottom: 0.625em white solid; width: 904px; margin-top:-10px; margin-left:auto; margin-right:auto; padding:8px; font-size:medium; color:maroon; 
-}
-/*
-h2 { font-size:x-large; color:white; margin:0 0 10px 0;} 
-*/
-h3 { font-size:large; color:white; margin:0 0 6px 0; 
-}
-#leftcol { float:left; width: 310px; vertical-align:top; 
-}
-/*#rightcol { width: 135px; float:right; height: 252px; margin-right:10px;
-}*/
-#midcol { 	margin-left:315px; margin-right:145px; margin-top:10px; vertical-align:top; 
-}
-
-/*set nav block position and width*
-nav { margin:10px 30px 0 10px; width:135px; float:right; 
-}
-nav ul { margin:10px 0 10px 0; width:135px; float:right;
-}
-/*Set un-ordered list style within the menu block only. This removes bullets*
-nav li { list-style-type:none; 
-}	
-/* set general side button styles *
-li.btn { margin-bottom: 3px; text-align: center; width:130px;
-}
-/* set general anchor styles and include the zoom fix for IE6*
-li.btn a { display: block; color: white; font-weight: bold; text-decoration: none; zoom:1;
-}
-/* specify mouse state styles */
-/* mouseout (default) *
-li.btn a { background:#559a55; color: white; border: 5px outset #559a55; padding-bottom:3px;
-}
-/* mouseover *
-li.btn a:hover { background: red;  color:white; border: 5px outset red;
-}
-/*mouse active*
-li.btn a:active { background:maroon;  border: 5px inset maroon; 
-}
-br.clear { 	clear:both; 
-}
-#midcol img { margin-left:10px; 
-}
-footer { clear:both; color:maroon; text-align:center; padding: .3em .8em; border: 1px solid rgba(0,0,0,.1); background: #58a linear-gradient(hsla(0,0%,100%,.2), transparent);border-radius: .2em; 
-box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .05em rgba(0,0,0,.5); font-size: 125%; line-height: 1.5;
-}
- /*  nav style css *
- #container { width:780px; margin:auto; 
- }
- #content { width:640px; margin-left:140px;
- }
-/*
- header { width: 38.75em; background-color:#FF9966; text-align:center; margin:5px auto 10px auto; padding:2px;
- }
- */
- article { float: right; width: 31.875em; margin:50px 0 0 0px; padding:6px;
- }
- */
  footer { clear:both; background-color:#FF9966; text-align:center; width: 38.75em; margin:auto;
  }
  
@@ -139,21 +93,6 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
 
 /*   inset-active-css  */
 
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul,
-li {
-    padding: 0;
-    margin: 0;
-}
 
 
 /*
@@ -187,7 +126,7 @@ nav li a {
     zoom: 1;
 }
 
-/* mouseout (default) *
+/* mouseout (default) */
 nav li a {
     background: #946055;
     border: 4px outset #c96e6b;
