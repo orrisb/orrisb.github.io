@@ -115,6 +115,8 @@ h2 {
  nav li a {
      background: #946055;
      border: 4px outset #c96e6b;
+    border-width: 10px;
+    border-left-width: 0;
  }
 
  nav li a:hover {
