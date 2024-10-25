@@ -47,6 +47,8 @@ article {
     margin-top: 20%;
     padding: .3em .8em;
     border: 1px solid rgba(0, 0, 0, .1);
+    border-width: 10px;
+    border-left-width: 0;
     background: #58a linear-gradient(hsla(0, 0%, 100%, .2), transparent);
     border-radius: .2em;
     box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
@@ -75,25 +77,8 @@ box-shadow: 0 .05em .25em rgba(0,0,0,.5); color: white; text-shadow: 0 -.05em .0
  
  p { margin-top:5px; margin-bottom:5px; 
  }
- /* set navigation menu position and style*
- nav { /* float:left; width:130px;  background-color : white; * margin: 0 7px 5px -30px; 
- }
- nav ul {float:left; width:130px;} 
- /* set general side button styles *
- nav li { margin-bottom: 3px; text-align: center; list-style-type:none; width:125px;}
- /* set general anchor styles *
- nav li a	{ display: block; color: white; font-weight: bold; text-decoration: none }
- /* specify state styles... */
- /* mouseout (default) *
- nav li a { background:#946055; color: white; border: 5px outset #C96E6B;}
- /* mouseover *
- nav li a:hover	{ background: #9F7562;   border: 5px outset #C96E6B;}
- /* omousedown *
- nav li a:active { background:maroon;  border: 5px inset maroon; }
-
+ 
 /*   inset-active-css  */
-
-
 
 /*
 #container {
