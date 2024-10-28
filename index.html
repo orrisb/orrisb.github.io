@@ -23,13 +23,153 @@
             <!--[if lte IE 8]>
                 <script src="html5.js"></script>
             <![endif]-->
+            <style type="text/css">
+                body {
+                    width: 31.25em;
+                    margin: auto;
+                    padding: .3em .8em;
+                    border: 1px solid rgba(0, 0, 0, .1);
+                    background: #58a linear-gradient(#77a0bb, #58a);
+                    border-radius: .2em;
+                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 150%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                header,
+                nav,
+                article,
+                footer {
+                    display: block;
+                }
+            
+                header {
+                    width: 31.25em;
+                    background-color: #FF9966;
+                    text-align: center;
+                    margin: auto;
+                    padding: .3em .8em;
+                    border: 1px solid rgba(0, 0, 0, .1);
+                    background: #58a linear-gradient(#FF9966, #58a);
+                    border-radius: .2em;
+                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 95%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                nav {
+                    float: left;
+                    width: 18%;
+                    /* background-color: #FF9966; */
+                    /* background: #58a linear-gradient(#FF9966, #58a); */
+                    border-radius: .2em;
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 80%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                article {
+                    float: right;
+                    width: 70%;
+                    background-color: #FF9966;
+                    margin-bottom: 0.62em;
+                    padding: .3em .8em;
+                    border: 1px solid rgba(0, 0, 0, .1);
+                    background: #58a linear-gradient(#FF9966, #58a);
+                    border-radius: .2em;
+                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 100%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                footer {
+                    clear: both;
+                    background-color: #FF9966;
+                    text-align: center;
+                    padding: .3em .8em;
+                    border: 1px solid rgba(0, 0, 0, .1);
+                    background: #58a linear-gradient(#FF9966, #58a);
+                    border-radius: .2em;
+                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 65%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                h2 {
+                    font-weight: bold;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding: .3em .8em;
+                    border: 1px solid rgba(0, 0, 0, .1);
+                    background: #58a linear-gradient(#FF9966, #58a);
+                    border-radius: .2em;
+                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 100%;
+                    text-align: center;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                .button {
+                    position: relative;
+                    /* text color, paddings, etc. */
+                    display: inline-block;
+                    padding: .3em .8em;
+                    border-radius: .2em;
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 62%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+            
+                .button::before {
+                    content: '';
+                    /* To generate the box */
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: -1;
+                    background: maroon;
+                    transform: skew(45deg);
+                }
+            
+                .button>div {
+                    transform: skewX(45deg);
+                }
+            </style>
             
         </head>
         <body>
             <header>
                 <!--change <div id="hdr"> to <header>-->
                 <h1>Practical HTML5 Projects for fun and profit </h1>
-                <h2>Free Basic Education and GED</h2>
+                
             </header>&nbsp;   
             <nav>
                 <ul>
@@ -74,7 +214,7 @@
                 </ul>
             </nav>
             <article>
-                    <h2>An Idoit's tale</h2>
+                    <h2>Free Basic Education and GED</h2>
                <p> Are you illiterate? Write today for free course.</p>           
             </article>
             <article>
