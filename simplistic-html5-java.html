@@ -36,7 +36,250 @@
                 
 		            <li><a href="simplistic-html5-java.html" class="button"><div>UI/UX Designer: M-T</div></a></li>
                    
-		            <li class="insetbtn"><a href="simplistic-side-by-side.html" class="button"><div>QA Engineer: T-B</div></a></li>
+                    <!doctype html>
+                    <html lang="en" manifest="orrisb.github.io/index.html">
+                        <head>
+                            <title>Semantic tags with JavaScript support for IE 7 and 8</title>
+                            <meta charset="utf-8">
+                            <!-- <meta details go here> -->
+                            <meta name="google-adsense-account" content="ca-pub-9639638377144073">
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <meta http-equiv="x-UA Compatible" content="ie=edge">
+                            <meta name="author" content="Orris A BakerJr">
+                            <meta name="description" content="HTML, Jquery, Javascript, Multimedia document">
+                            <meta name="theme-color" content="#712cf9">           
+                            <meta name="keywords" content="HTML5, Node.js, Jquery">            
+                            <link rel="stylesheet" type="text/css" href="#">
+                            <!--  Favicon-->    
+                            <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/img/HTMLBadge.ico">
+                            <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/favicon.ico">	
+                            <link rel="alternate" type="application/pdf" href="MainPage.pdf">
+                            <link rel="author" href="mailto:internetearnings@live.com">
+                            <link rel="author" type="text/html" href="https://orrisb.github.io/index.html">
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9639638377144073" crossorigin="anonymous"></script>	
+                            <!--conditional Javascript added-->
+                            <!--[if lte IE 8]>
+                                <script src="html5.js"></script>
+                            <![endif]-->
+                            <style type="text/css">
+                                body { 	width:31.25em; margin:auto; 
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 125%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0; 
+                                }
+                                header, nav, article, footer { display:block; 
+                                }
+                                header { width:500px; background-color:#FF9966; text-align:center; margin:auto; 
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                nav { float:left; width:25%; 
+                                color: white;
+                                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                font-size: 125%;
+                                line-height: 1.5;
+                                border-width: 10px;
+                                border-left-width: 0;
+                                }
+                                article { float:right; width:70%; background-color:#FF9966; margin-bottom:10px; text-align: center;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                footer { clear:both; background-color:#FF9966; text-align:center;
+                                }
+                                h2 { 
+                                    font-weight: bold;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: rgba(0, 0, 0, .5);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    text-align: center;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                .button {
+                                position: relative;
+                                /* text color, paddings, etc. */
+                                display: inline-block;
+                                border-radius: .2em;
+                                color: white;
+                                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                font-size: 50%;
+                                line-height: 1.5;
+                                border-width: 10px;
+                                border-left-width: 0;
+                            }
+                            .button::before {
+                                content: ''; /* To generate the box */
+                                position: absolute;
+                                top: 0; right: 0; bottom: 0; left: 0;
+                                z-index: -1;
+                                background: maroon;
+                                transform: skew(45deg);
+                            }
+                            .button>div {
+                                transform: skewX(45deg);
+                            }           
+                            nav ul { width: 115px; float:left;margin-left:0; 
+                            }
+                            nav li { 
+                                margin-bottom: 1px; 
+                                text-align: center; 
+                                list-style:none; 
+                                padding-bottom:3px;
+                            }
+                            nav li a { 
+                                display: block; 
+                                color: yellow; 
+                                font-weight: bold;
+                                text-decoration: none;  
+                                zoom:1; 
+                            }
+                            nav li a:active { 
+                                background:#aecbff;  
+                                border: 4px inset #aecbff; 
+                            }
+                            /* set general inset button styles */
+                            nav li.insetbtn { 
+                                border:none;
+                            }
+                            nav li.insetbtn a { 
+                                display: block; 
+                                color:orange; 
+                                font-weight: bold;
+                                text-decoration: none; 
+                                cursor:default; 
+                                margin-bottom: 0; 
+                                text-align: center; 
+                                list-style:none;
+                                padding-bottom:3px;
+                            }
+                        </style>
+                        </head>
+                        <body>
+                            <header>
+                                <!--change <div id="hdr"> to <header>-->
+                                <h1>Practical HTML5 Projects for fun and profit </h1>
+                                
+                            </header><br>
+                            <nav>
+                                <ul>
+                                    <li><a href="HTML5-CH1-7.html" class="button"><div>Requirement Analyst: L-S</div></a></li>
+                                    
+                                    <li><a href="html5-nav.html" class="button"><div>Project manager: D-P</div></a></li>
+                                
+                                    <li><a href="simplistic-html5-java.html" class="button"><div>UI/UX Designer: M-T</div></a></li>
+                                   
+                                    <li class="insetbtn"><a href="simplistic-side-by-side.html" class="button"><div>QA Engineer: T-B</div></a></li>
+                                
+                                    <li><a href="index.html" class="button"><div>SEO Specialist: E-S</div></a></li>
+                                </ul>               
+                            </nav>
+                            <article>
+                                <h2>Free Basic Education and GED</h2>
+                                <p> Are you illiterate? Write today for free course.</p>           
+                            </article>
+                            <article>
+                                <h2>Which browser should we design for?</h2>
+                                <p>Stock up for Christmas. Limited to one per family</p>
+                            </article>
+                            <footer role="contentinfo">
+                                <div class="footer-inner">
+                                    <a href="../">
+                                        <h1>Integrating Innovation </h1>
+                                    </a>
+                            
+                                    <div class="company-details">
+                                        <p class="copyright"> &copy; <time datetime="2013">2024</time> MarieJanes HTML5 for Fun and Profit</p>
+                                        <p class="distributor">Distributor: Findlater HempSmarts Inc & Cannabis in Action Group</p>
+                                        <p class="address">414 W 127th, New York, NY 10027</p>
+                                        <p class="telephone-number">Tel: 212-665-1678</p>
+                                    </div>
+                            
+                                    <hr class="full">
+                            
+                                    <div class="footer-nav">
+                                        <ul>
+                                            <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-106">
+                                                <a href="#">Our Story</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a
+                                                    href="#">Our Buds</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a
+                                                    href="#">Where To Buy</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a
+                                                    href="#" Blog Competition</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a
+                                                    href="#">Contact</a></li>
+                                        </ul>
+                                        <a href=" #" class="drinkaware">Enjoy Hemp Sensibly</a>
+                                    </div>
+                            
+                                    <hr class="full">
+                            
+                                    <div class="legalese">
+                                        <a href="#" class="visit-dot-com"><span>Visit </span>https://orrisb.github.io/#</a>
+                                        <a href="#">Cookie &amp; Privacy Policy</a>
+                                        <a href="#">Terms &amp; Conditions</a>
+                                    </div>
+                                    <div class="room150-link">
+                                        <a href=" #" class="designed-by">Website design by <span>Orris Baker Jr</span></a>
+                                    </div>
+                                </div>
+                            
+                            </footer> <!-- /footer -->
+                            <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+                            <script>window.jQuery || document.write('<script src="../wp-content/themes/starkers-master/js/jquery.js"><\/script>')</script>
+                            
+                            
+                            
+                            <script src="../wp-content/themes/starkers-master/js/plugin.js"></script>
+                            <script src="../wp-content/themes/starkers-master/js/site.js"></script>
+                            
+                            <script>
+                                    (function (i, s, o, g, r, a, m) {
+                                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                                            (i[r].q = i[r].q || []).push(arguments)
+                                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                                            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                                ga('create', 'UA-35464145-2', 'orrisb.github.io');
+                                ga('send', 'pageview');
+                            </script>
+                            </body>
+                    </html>	            <li class="insetbtn"><a href="simplistic-side-by-side.html" class="button"><div>QA Engineer: T-B</div></a></li>
                 
 		            <li><a href="index.html" class="button"><div>SEO Specialist: E-S</div></a></li>
                 </ul>               
