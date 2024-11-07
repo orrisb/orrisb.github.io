@@ -24,134 +24,131 @@
                 <script src="html5.js"></script>
             <![endif]-->
             <style type="text/css">
-                body { 	width:31.25 em; margin:auto; 
-                    padding: .3 em .8 em;
-                    border: 1 px solid rgba (0, 0, 0, .1);
-                    background: #58a linear-gradient (#FF9966, #58a);
-                    border-radius: .2 em;
-                    box-shadow: 0 .05 em .25 em rgba ( 0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                    font-size: 125 %;
-                    line-height: 1.5;
-                    border-width: 10 px;
-                    border-left-width: 0; 
-                }
-                header, nav, article, footer { display:block; 
-                }
-                header { width:500 px; background-color:#FF9966; text-align:center; margin:auto; 
-                    padding: .3 em .8 em;
-                    border: 1 px solid rgba (0, 0, 0, .1);
-                    background: #58a linear-gradient (#FF9966, #58a);
-                    border-radius: .2 em;
-                    box-shadow: 0 .05 em .25 em rgba (0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                    font-size: 100 %;
-                    line-height: 1.5;
-                    border-width: 10 px;
-                    border-left-width: 0;
-                }
-		#container { margin-left: -20 px; 
-			    margin-top: 20 px;
-			   }
-                nav { float:left; width:25 %; 
-                color: white;
-                text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                font-size: 100 %;
-                line-height: 1.5;
-                border-width: 10 px;
-                border-left-width: 0;
-                }
-                article { float:right; width:70 %; background-color:#FF9966; margin-bottom:10px; text-align: center;
-                    border: 1 px solid rgba (0, 0, 0, .1);
-                    background: #58a linear-gradient (#FF9966, #58a);
-                    border-radius: .2 em;
-                    box-shadow: 0 .05 em .25 em rgba (0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                    font-size: 100 %;
-                    line-height: 1.5;
-                    border-width: 10 px;
-                    border-left-width: 0;
-                }
-                footer { clear:both; background-color:#FF9966; text-align:center;
-                }
-                h2 { 
-                    font-weight: bold;
-                    margin-top: 0;
-                    margin-bottom: 0;
-                    padding: .3 em .8 em;
-                    border: 1 px solid rgba (0, 0, 0, .1);
-                    background: rgba (0, 0, 0, .5);
-                    border-radius: .2 em;
-                    box-shadow: 0 .05 em .25 em rgba (0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                    font-size: 100%;
-                    text-align: center;
-                    line-height: 1.5;
-                    border-width: 10 px;
-                    border-left-width: 0;
-                }
-                .button {
-                position: relative;
-                /* text color, paddings, etc. */
-                display: inline-block;
-                border-radius: .2 em;
-                color: white;
-                text-shadow: 0 -.05 em .05 em rgba (0, 0, 0, .5);
-                font-size: 100 %;
-                line-height: 1.5;
-                border-width: 10 px;
-                border-left-width: 0;
-            }
-            .button::before {
-                content: ''; /* To generate the box */
-                position: absolute;
-                top: 0; right: 0; bottom: 0; left: 0;
-                z-index: -1;
-                background: maroon;
-                transform: skew (45 deg);
-            }
-            .button>div {
-                transform: skewX (45 deg);
-            }           
-            nav ul { width: 115 px; float:left;margin-left:0; 
-            }
-            nav li { 
-                margin-bottom: 1 px; 
-                text-align: center; 
-                list-style:none; 
-                padding-bottom:3 px;
-            }
-            nav li a { 
-                display: block; 
-                color: yellow; 
-                font-weight: bold;
-                text-decoration: none;  
-                zoom:1; 
-            }
-            nav li a:active { 
-                background:#aecbff;  
-                border: 4 px inset #aecbff; 
-            }
-            /* set general inset button styles */
-            nav li.insetbtn { 
-                border:none;
-            }
-            nav li.insetbtn a { 
-                display: block; 
-                color:orange; 
-                font-weight: bold;
-                text-decoration: none; 
-                cursor:default; 
-                margin-bottom: 0; 
-                text-align: center; 
-                list-style:none;
-                padding-bottom: 3 px;
-            }
-        </style>       
+                                body { 	width:31.25em; margin:auto; 
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 125%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0; 
+                                }
+                                header, nav, article, footer { display:block; 
+                                }
+                                header { width:500px; background-color:#FF9966; text-align:center; margin:auto; 
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                nav { float:left; width:25%; 
+                                color: white;
+                                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                font-size: 100%;
+                                line-height: 1.5;
+                                border-width: 10px;
+                                border-left-width: 0;
+                                }
+                                article { float:right; width:70%; background-color:#FF9966; margin-bottom:10px; text-align: center;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: #58a linear-gradient(#FF9966, #58a);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                footer { clear:both; background-color:#FF9966; text-align:center;
+                                }
+                                h2 { 
+                                    font-weight: bold;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    padding: .3em .8em;
+                                    border: 1px solid rgba(0, 0, 0, .1);
+                                    background: rgba(0, 0, 0, .5);
+                                    border-radius: .2em;
+                                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                                    color: white;
+                                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                    font-size: 100%;
+                                    text-align: center;
+                                    line-height: 1.5;
+                                    border-width: 10px;
+                                    border-left-width: 0;
+                                }
+                                .button {
+                                position: relative;
+                                /* text color, paddings, etc. */
+                                display: inline-block;
+                                border-radius: .2em;
+                                color: white;
+                                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                                font-size: 100%;
+                                line-height: 1.5;
+                                border-width: 10px;
+                                border-left-width: 0;
+                            }
+                            .button::before {
+                                content: ''; /* To generate the box */
+                                position: absolute;
+                                top: 0; right: 0; bottom: 0; left: 0;
+                                z-index: -1;
+                                background: maroon;
+                                transform: skew(45deg);
+                            }
+                            .button>div {
+                                transform: skewX(45deg);
+                            }           
+                            nav ul { width: 115px; float:left;margin-left:0; 
+                            }
+                            nav li { 
+                                margin-bottom: 1px; 
+                                text-align: center; 
+                                list-style:none; 
+                                padding-bottom:3px;
+                            }
+                            nav li a { 
+                                display: block; 
+                                color: yellow; 
+                                font-weight: bold;
+                                text-decoration: none;  
+                                zoom:1; 
+                            }
+                            nav li a:active { 
+                                background:#aecbff;  
+                                border: 4px inset #aecbff; 
+                            }
+                            /* set general inset button styles */
+                            nav li.insetbtn { 
+                                border:none;
+                            }
+                            nav li.insetbtn a { 
+                                display: block; 
+                                color:orange; 
+                                font-weight: bold;
+                                text-decoration: none; 
+                                cursor:default; 
+                                margin-bottom: 0; 
+                                text-align: center; 
+                                list-style:none;
+                                padding-bottom:3px;
+                            }
+                        </style>      
         </head>
         <body>
             <header>
