@@ -1,3 +1,189 @@
+body { 	
+    width:31.25em;
+    margin:auto; 
+    padding: .3em .8em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(#FF9966, #58a);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 175%;
+    line-height: 1.5;
+    border-width: 10px;
+    border-left-width: 0; 
+  }
+			
+  header, nav, article, footer { 
+    display:block; 
+ }
+                    
+header { 
+    width:94%; 
+		background-color:#FF9966; 
+		text-align:center; 
+		margin:auto; 
+    padding: .3em .8em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(#FF9966, #58a);
+    border-radius: .2em;
+    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 100%;
+    line-height: 1.5;
+    border-width: 10px;
+    border-left-width: 0;
+    }
+
+h1 { 
+    font-family: "Times new roman"; padding: .3em .8em;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: #58a linear-gradient(#FF9966, #58a);
+    border-radius: .2em;
+		box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 110%;
+    line-height: 1.5;
+    border-width: 10px;
+    border-left-width: 0;
+		}		
+		    
+#container { 
+		margin-left: -20px; 
+		margin-top: 20px;
+		}
+			
+nav { 
+		float:left; 
+		width:25%; 
+    color: white;
+    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+    font-size: 60%;
+    line-height: 1.5;
+    border-width: 10px;
+    border-left-width: 0;
+    }
+			
+                    article { 
+			float:right; 
+			width:190px; 
+			background-color:#FF9966; 
+			margin:10px; 
+			text-align: center;
+                        border: 1px solid rgba(0, 0, 0, .1);
+                        background: #58a linear-gradient(#FF9966, #58a);
+                        border-radius: .2em;
+                        box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                        color: white;
+                        text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                        font-size: 68%;
+                        line-height: 1.5;
+                        border-width: 10px;
+                        border-left-width: 0;
+                    }
+                
+		    footer {
+                        clear: both;
+                        background-color: #FF9966;
+                        text-align: center;
+                        padding: .3em .8em;
+                        border: 1px solid rgba(0, 0, 0, .1);
+                        background: #58a linear-gradient(#FF9966, #58a);
+                        border-radius: .2em;
+                        box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                        color: black;
+                        text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                        font-size: 80%;
+                        line-height: 1.5;
+                        border-width: 10px;
+                        border-left-width: 0;
+                    }  
+			
+		    h2 { 
+                        font-weight: bold;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        padding: .3em .8em;
+                        border: 1px solid rgba(0, 0, 0, .1);
+                        background: rgba(0, 0, 0, .5);
+                        border-radius: .2em;
+                        box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
+                        color: white;
+                        text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                        font-size: 100%;
+                        text-align: center;
+                        line-height: 1.5;
+                        border-width: 10px;
+                        border-left-width: 0;
+                    }
+			
+                    .button {
+                        position: relative;
+                        /* text color, paddings, etc. */
+                        display: inline-block;
+                        border-radius: .2em;
+                        color: white;
+                        text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                        font-size: 100%;
+                        line-height: 1.5;
+                        border-width: 10px;
+                        border-left-width: 0;
+                    }
+                    .button::before {
+                        content: ''; /* To generate the box */
+                        position: absolute;
+                        top: 0; right: 0; bottom: 0; left: 0;
+                        z-index: -1;
+                        background: maroon;
+                        transform: skew(45deg);
+                    }
+			
+                    .button>div {
+                        transform: skewX(45deg);
+                    }
+			
+                    nav ul { 
+			width: 115px; 
+		        float:left;
+			margin-left:0; 
+                    }
+			
+                    nav li { 
+                        margin-bottom: 1px; 
+                        text-align: center; 
+                        list-style:none; 
+                        padding-bottom:3px;
+                    }
+                    nav li a { 
+                        display: block; 
+                        color: yellow; 
+                        font-weight: bold;
+                        text-decoration: none;  
+                        zoom:1; 
+                    }
+			
+                    nav li a:active { 
+                        background:#aecbff;  
+                        border: 4px inset #aecbff; 
+                    }
+                    /* set general inset button styles */
+                    nav li.insetbtn { 
+                        border:none;
+                    }
+			
+                    nav li.insetbtn a { 
+                        display: block; 
+                        color:orange; 
+                        font-weight: bold;
+                        text-decoration: none; 
+                        cursor:default; 
+                        margin-bottom: 0; 
+                        text-align: center; 
+                        list-style:none;
+                        padding-bottom: 3 px;
+                    }
 /* #container { width:780px; margin:auto; 
 }
 #content { width:640px; margin-left:140px;
