@@ -18,7 +18,7 @@ h2 {font-size:large; font-family:"times new roman"; text-align:center;
 body {margin:auto; width:60.625em; 
 }
 header {
-	width:970px;
+	width:60.625em;
 }
 nav { float:left; margin-left:10px; width:115px;
 }
