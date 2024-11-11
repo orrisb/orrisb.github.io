@@ -1,283 +1,43 @@
-<!doctype html>
-    <html lang="en" manifest="orrisb.github.io/simplistic-side-by-side.html">
-        <head>
-            <title>SEO Specialist: Eldridge.Smith</title>
-            <meta charset="utf-8">
-            <!-- <meta details go here> -->
-            <meta name="google-adsense-account" content="ca-pub-9639638377144073">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta http-equiv="x-UA Compatible" content="ie=edge">
-            <meta name="author" content="Orris A BakerJr">
-	    <meta name="description" content="HTML, Jquery, Javascript, Multimedia document">
-            <meta name="theme-color" content="#712cf9">
-            <meta name="keywords" content="HTML5, Node.js, Jquery">
-            <link rel="stylesheet" type="text/css" href="">     
-	    <!-- Favicon-->
-	    <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/img/HTMLBadge.ico">
-	    <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/favicon.ico">	
-	    <link rel="alternate" type="application/pdf" href="MainPage.pdf">
-            <link rel="author" href="mailto:internetearnings@live.com">
-	    <link rel="author" type="text/html" href="https://orrisb.github.io/index.html">
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9639638377144073" crossorigin="anonymous"></script>
-            <!--conditional Javascript added-->
-            <!--[if lte IE 8]>
-                <script src="html5.js"></script>
-            <![endif]-->
-            <style type="text/css">
-                body {
-                    width: 31.25em;
-                    margin: auto;
-                    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#77a0bb, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 175%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                header, nav, article, footer {
-                    display: block;
-                }
-                header {
-                    width: 60em;
-                    background-color: #FF9966;
-                    text-align: center;
-                    margin: auto;
-                    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#FF9966, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 50%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-
-	        h1 { 
-		    font-family: "Times new roman"; 
-		    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#FF9966, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 175%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-		    }               
-		nav {
-                    float: left;
-                    width: 23%;
-                    border-radius: .2em;
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 70%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                article {
-                    float: right;
-                    width: 30%;
-                    background-color: #FF9966;
-		    margin: 0 0 0 10px;
-                    margin-bottom: 0.62em;
-                    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#FF9966, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: black;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 100%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                footer {
-                    clear: both;
-                    background-color: #FF9966;
-                    text-align: center;
-                    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#FF9966, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: black;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 75%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                h2 {
-                    font-weight: bold;
-                    margin-top: 0;
-                    margin-bottom: 0;
-                    padding: .3em .8em;
-                    border: 1px solid rgba(0, 0, 0, .1);
-                    background: #58a linear-gradient(#FF9966, #58a);
-                    border-radius: .2em;
-                    box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 50%;
-                    text-align: center;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                .button {
-                    position: relative;
-                    /* text color, paddings, etc. */
-                    display: inline-block;
-                    padding: .3em .8em;
-                    border-radius: .2em;
-                    color: white;
-                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                    font-size: 80%;
-                    line-height: 1.5;
-                    border-width: 10px;
-                    border-left-width: 0;
-                }
-                .button::before {
-                    content: ''; /* To generate the box */
-                    position: absolute;
-                    top: 0; right: 0; bottom: 0; left: 0;
-                    z-index: -1;
-                    background: maroon;
-                    transform: skew(45deg);
-                }
-                .button>div {
-                    transform: skewX(45deg);
-                }
-                nav ul {
-                    width: 115px;
-                    float: left;
-                    margin-left: 0;
-                }            
-                nav li {
-                    margin-bottom: 1px;
-                    text-align: center;
-                    list-style: none;
-                    padding-bottom: 3px;
-                }
-                nav li a {
-                    display: block;
-                    color: yellow;
-                    font-weight: bold;
-                    text-decoration: none;
-                    zoom: 1;
-                }
-                nav li a:active {
-                    background: #aecbff;
-                    border: 4px inset #aecbff;
-                }
-                /* set general inset button styles */
-                nav li.insetbtn {
-                    border: none;
-                } 
-                nav li.insetbtn a {
-                    display: block;
-                    color: orange;
-                    font-weight: bold;
-                    text-decoration: none;
-                    cursor: default;
-                    margin-bottom: 0;
-                    text-align: center;
-                    list-style: none;
-                    padding-bottom: 3px;
-                }
-            </style>
-        </head>
-        <body>
-        <header>
-            <h1>Practical HTML5 Projects for fun and profit </h1>
-        </header><br>
-        <div id="container">
-            <nav>
-                <ul>
-		    <li><a href="index2.html" title="Volunteers needed" class="button"><div>Volunteers</div></a></li>	
-		    <li><a href="HTML5-Ch1-7.html" title="Requirement Analyst" class="button"><div>About Us</div></a></li>                              
-                    <li><a href="donations.html" title="Project Manager" class="button"><div>Donations</div></a></li>
-                    <li><a href="html5-nav.html" title="UI/UX Designer" class="button"><div>Membership</div></a></li>
-		    <li><a href="gallery-page-validated.html" title="CEO web-developer" class="button"><div>Gallery</div></a></li>
-                    <li><a href="simplistic-html5-java.html" title="QA Engineer" class="button"><div>Services</div></a></li>
-                    <li class="insetbtn"><a href="simplistic-side-by-side.html" title="SEO Specialist" class="button"><div>News</div></a></li>
-                    <li><a href="index.html" title="Return to Home Page" class="button"><div>Home Page</div></a></li>
-                </ul>
-            </nav>
-        </div> 
-        <article>
-            <h2>Free Basic Education and GED</h2>
-            <p> Are you illiterate? Write today for free course.<br>Easy payment terms. </p>
-        </article>
-        <article>
-            <h2>Which browser should we design for?</h2>
-            <p></p>Stock up for Christmas. Limited to one per family.<br>Free Delivery &pound;2</p>
-        </article>
-        <footer role="contentinfo">
-            <div class="footer-inner">
-                    <a href="../">
-                        <h1>Integrating Innovation </h1>
-                    </a>
-            
-                    <div class="company-details">
-                        <p class="copyright"> &copy; <time datetime="2013">2024</time> MarieJanes HTML5 for Fun and Profit</p>
-                        <p class="distributor">Distributor: Findlater HempSmarts Inc & Cannabis in Action Group</p>
-                        <p class="address">414 W 127th, New York, NY 10027</p>
-                        <p class="telephone-number">Tel: 212-665-1678</p>
-                    </div>
-            
-                    <hr class="full">
-            
-                    <div class="footer-nav">
-                        <ul>
-                            <li
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6 current_page_item menu-item-106">
-                                <a href="#">Our Story</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a
-                                    href="#">Our Flowers</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a
-                                    href="#">Where To Buy</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a
-                                    href="#" Blog Competition</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a
-                                    href="active-page.html" title="Contact Us">Contact Us</a></li>
-                        </ul>
-                        <a href=" #" class="drinkaware">Enjoy life Sensibly</a>
-                    </div>
-                    <hr class="full">
-                    <div class="legalese">
-                        <a href="#" class="visit-dot-com"><span>Visit </span>https://orrisb.github.io/#</a>
-                        <a href="#">Cookie &amp; Privacy Policy</a>
-                        <a href="#">Terms &amp; Conditions</a>
-                    </div>
-                    <div class="room150-link">
-                        <a href=" #" class="designed-by">Website design by <span>Orris Baker Jr</span></a>
-                    </div>
-                </div>
-            </footer> <!-- /footer -->
-            <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-            
-            <script>
-                    (function (i, s, o, g, r, a, m) {
-                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                            (i[r].q = i[r].q || []).push(arguments)
-                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-                ga('create', 'UA-35464145-2', 'orrisb.github.io');
-                ga('send', 'pageview');
-            </script>
-        </body>
-    </html> 
+<!doctype html> 
+<html lang=en>
+<head>
+<title>Semantic tags with two articles side by side</title>
+<meta charset=utf-8>
+<style>
+body { 	width:500px; margin:auto; }
+header, nav, footer { display:block; }
+article { 	display:inline; }
+header { width:500px; background-color:#FF9966; text-align:center; margin:auto; }
+h1 { margin-bottom:10px; }
+nav { float:left; width:25%; background-color: #FF9966; margin-bottom:10px; }
+article { float:left; width:33%; background-color:#FF9966; margin:0 0 0 10px; padding:6px;}
+footer { clear:both; background-color:#FF9966; text-align:center;}
+h2 { font-size:large; font-weight:bold; margin-top:0; margin-bottom:0; }
+</style>
+<!--[if lte IE 8]>
+<script src="html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<header>
+<h1>header goes here</h1>
+</header>
+<nav>
+<ul>
+<li><a href=”page-one.html” >Page One</a></li>
+<li><a href=”page-two.html” >Page Two</a></li>
+<li><a href=”index.html” >Home page</a></li>
+</ul>
+</nav>
+<article>
+<h2>Article</h2>Are you illiterate? Write today for a free course.<br>Easy payment terms. 
+</article>
+<article>
+<h2>Another Article</h2>Stock up for Christmas. Limited to one per family.<br>Free Delivery &pound;2
+</article>
+<footer>
+<strong>Footer.</strong> Perhaps for a copyright statement
+</footer>
+</body>
+</html> 
