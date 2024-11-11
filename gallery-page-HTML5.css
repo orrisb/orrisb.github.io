@@ -15,10 +15,10 @@ h1 { font-size:x-large; font-family:"times new roman"; text-align:center;
 h2 {font-size:large; font-family:"times new roman"; text-align:center;
 }
 /*PAGE LAYOUT*/
-body {margin:auto; width:60.625em; 
+body {margin:auto; width:970px; 
 }
 header {
-	width:60.625em;
+	width:970px;
 }
 nav { float:left; margin-left:10px; width:115px;
 }
