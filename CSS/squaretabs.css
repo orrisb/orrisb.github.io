@@ -21,7 +21,30 @@ article {
             border-width: 10px;
             border-left-width: 0;
         }
-header {margin-top:0; height:156px; width:100%; 
+
+        .button {
+                    position: relative;
+                    /* text color, paddings, etc. */
+                    display: inline-block;
+                    border-radius: .2em;
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 50%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                }
+                .button::before {
+                    content: ''; /* To generate the box */
+                    position: absolute;
+                    top: 0; right: 0; bottom: 0; left: 0;
+                    z-index: -1;
+                    background: maroon;
+                    transform: skew(45deg);
+                }
+                .button>div {
+                    transform: skewX(45deg);
+                }header {margin-top:0; height:156px; width:100%; 
 background-image:url('images/bluepan.jpg'); background-repeat:no-repeat; background-position:center;
  border-bottom:0; 
  }
