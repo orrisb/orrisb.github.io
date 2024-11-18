@@ -11,11 +11,11 @@ header {
 	margin-top:0; 
 	height:196px; 
 	width:100%; 
-        background-image:url('images/bluepan.jpg'); 
+    background-image:url('images/bluepan.jpg'); 
 	background-repeat:no-repeat; 
 	background-position:
 	center;
-        border-bottom:0; 
+    border-bottom:0; 
  }
 h1 {
 	font-family:Arial; 
