@@ -108,3 +108,5 @@ nav a.active:hover {
             .button>div {
                 transform: skewX(45deg);
             } 
+article { float:right; width:70%; background-color:#FF9966; margin-bottom:10px;
+}
