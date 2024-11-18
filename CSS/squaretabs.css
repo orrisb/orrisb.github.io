@@ -85,7 +85,7 @@ nav a.active:hover {
 	border-top: none; 
 	z-index: 2;
 }
-
+/*
 body {  
 	 padding: .3em .8em;
 	border: 1px solid rgba(0, 0, 0, .1);
@@ -114,6 +114,7 @@ header { width:500px; background-color:#FF9966; text-align:center; margin:auto;
 	border-width: 10px;
 	border-left-width: 0;
 }
+	*/
 nav { float:left; width:25%; 
 color: white;
 text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
