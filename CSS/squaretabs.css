@@ -114,7 +114,7 @@ header { width:500px; background-color:#FF9966; text-align:center; margin:auto;
 	border-width: 10px;
 	border-left-width: 0;
 }
-	*/
+	
 nav { float:left; width:25%; 
 color: white;
 text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
@@ -122,7 +122,7 @@ font-size: 125%;
 line-height: 1.5;
 border-width: 10px;
 border-left-width: 0;
-}
+}*/
 article { float:right; width:70%; background-color:#FF9966; margin-bottom:10px; text-align: center;
 	border: 1px solid rgba(0, 0, 0, .1);
 	background: #58a linear-gradient(#FF9966, #58a);
@@ -177,7 +177,7 @@ transform: skew(45deg);
 .button>div {
 transform: skewX(45deg);
 }
-
+/*
 nav ul { width: 115px; float:left;margin-left:0; 
 }
 nav li { 
@@ -186,6 +186,7 @@ text-align: center;
 list-style:none; 
 padding-bottom:3px;
 }
+/
 nav li a { 
 display: block; 
 color: yellow; 
@@ -197,7 +198,7 @@ nav li a:active {
 background:#aecbff;  
 border: 4px inset #aecbff; 
 }
-/* set general inset button styles */
+/* set general inset button styles 
 nav li.insetbtn { 
 border:none;
 }
@@ -212,3 +213,4 @@ text-align: center;
 list-style:none;
 padding-bottom:3px;
 }
+*/
