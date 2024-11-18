@@ -85,8 +85,8 @@ nav a.active:hover {
 	border-top: none; 
 	z-index: 2;
 }
-/*
-body { 	width:500px; margin:auto; 
+
+body {  
 	 padding: .3em .8em;
 	border: 1px solid rgba(0, 0, 0, .1);
 	background: #58a linear-gradient(#FF9966, #58a);
@@ -97,7 +97,7 @@ body { 	width:500px; margin:auto;
 	font-size: 125%;
 	line-height: 1.5;
 	border-width: 10px;
-	border-left-width: 0; */ 
+	border-left-width: 0;  
 }
 header, nav, article, footer { display:block; 
 }
