@@ -21,7 +21,7 @@ body {text-align:center; margin: 20px; background: #bee8ff; font: medium arial;
 header {
     margin-top:0; 
     height:11rem; 
-    width:100%; 
+    width:95.7%; 
     background-image:url('images/bluepan.jpg'); 
     background-repeat:no-repeat; 
     background-position:
@@ -35,7 +35,7 @@ header {
     box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
     color: white;
     text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-    font-size: 110%;
+    font-size: 100%;
     line-height: 1.5;
     border-width: 10px;
     border-left-width: 0; }
