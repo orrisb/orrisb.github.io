@@ -24,7 +24,9 @@
                 <script src="html5.js"></script>
             <![endif]-->
             <style type="text/css">
-                body { 	width:31.25em; margin:auto; 
+                body { 	
+		    width:31.25em; 
+		    margin:auto; 
                     padding: .3em .8em;
                     border: 1px solid rgba(0, 0, 0, .1);
                     background: #58a linear-gradient(#FF9966, #58a);
@@ -35,10 +37,11 @@
                     font-size: 150%;
                     line-height: 1.5;
                     border-width: 10px;
-                    border-left-width: 0; 
+                    border-left-width: 0;  
                 }
-                header, nav, article, footer { display:block; 
-                }
+                header, nav, article, footer { 
+		    display:block; 
+                    }
                 header { width:29.25em; background-color:#FF9966; text-align:center; margin:auto; 
                     padding: .3em .8em;
                     border: 1px solid rgba(0, 0, 0, .1);
@@ -51,18 +54,18 @@
                     line-height: 1.5;
                     border-width: 10px;
                     border-left-width: 0;
-                }
-		h1 {
+		    }
+		    h1 {
 		        font-size: 125%; color: white; position: relative; left: 90px;top: 20px; width: 480px;
-		    }                
-		nav { float:left; width:25%; 
-                color: white;
-                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                font-size: 125%;
-                line-height: 1.5;
-                border-width: 10px;
-                border-left-width: 0;
-                }
+		    }
+                nav { float:left; width:5em; 
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 90%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                    }
                 article { float:right; width:70%; background-color:#FF9966; margin-bottom:10px; text-align: center;
                     border: 1px solid rgba(0, 0, 0, .1);
                     background: #58a linear-gradient(#FF9966, #58a);
@@ -74,7 +77,7 @@
                     line-height: 1.5;
                     border-width: 10px;
                     border-left-width: 0;
-                }
+                    }
                 footer { clear:both; background-color:#FF9966; text-align:center; padding: .3em .8em;
                     border: 1px solid rgba(0, 0, 0, .1);
                     background: #58a linear-gradient(#FF9966, #58a);
@@ -85,7 +88,7 @@
                     font-size: 57%;
                     line-height: 1.5;
                     border-width: 10px;
-                    border-left-width: 0;
+                    border-left-width: 0;                    }
                 h2 { 
                     font-weight: bold;
                     margin-top: 0;
@@ -102,64 +105,65 @@
                     line-height: 1.5;
                     border-width: 10px;
                     border-left-width: 0;
-                }
+                    }
                 .button {
-                position: relative;
-                /* text color, paddings, etc. */
-                display: inline-block;
-                border-radius: .2em;
-                color: white;
-                text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-                font-size: 50%;
-                line-height: 1.5;
-                border-width: 10px;
-                border-left-width: 0;
-            }
-            .button::before {
-                content: ''; /* To generate the box */
-                position: absolute;
-                top: 0; right: 0; bottom: 0; left: 0;
-                z-index: -1;
-                background: maroon;
-                transform: skew(45deg);
-            }
-            .button>div {
-                transform: skewX(45deg);
-            }           
-            nav ul { width: 115px; float:left;margin-left:0; 
-            }
-            nav li { 
-                margin-bottom: 1px; 
-                text-align: center; 
-                list-style:none; 
-                padding-bottom:3px;
-            }
-            nav li a { 
-                display: block; 
-                color: yellow; 
-                font-weight: bold;
-                text-decoration: none;  
-                zoom:1; 
-            }
-            nav li a:active { 
-                background:#aecbff;  
-                border: 4px inset #aecbff; 
-            }
-            /* set general inset button styles */
-            nav li.insetbtn { 
-                border:none;
-            }
-            nav li.insetbtn a { 
-                display: block; 
-                color:orange; 
-                font-weight: bold;
-                text-decoration: none; 
-                cursor:default; 
-                margin-bottom: 0; 
-                text-align: center; 
-                list-style:none;
-                padding-bottom:3px;
-            }
+                    position: relative;
+                    /* text color, paddings, etc. */
+                    display: inline-block;
+                    border-radius: .2em;
+                    color: white;
+                    text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+                    font-size: 70%;
+                    line-height: 1.5;
+                    border-width: 10px;
+                    border-left-width: 0;
+                    }
+                .button::before {
+                    content: ''; /* To generate the box */
+                    position: absolute;
+                    top: 0; right: 0; bottom: 0; left: 0;
+                    z-index: -1;
+                    background: maroon;
+                    transform: skew(45deg);
+                    }
+                .button>div {
+                    transform: skewX(45deg);
+                }
+                
+		nav ul { width: 115px; float:left;margin-left:0; 
+                }
+                nav li { 
+                    margin-bottom: 1px; 
+                    text-align: center; 
+                    list-style:none; 
+                    padding-bottom:3px;
+                }
+                nav li a { 
+                    display: block; 
+                    color: yellow; 
+                    font-weight: bold;
+                    text-decoration: none;  
+                    zoom:1; 
+                }
+		nav li a:active { 
+                    background:#aecbff;  
+                    border: 4px inset #aecbff; 
+                }
+                /* set general inset button styles */
+                nav li.insetbtn { 
+                    border:none;
+                }
+                nav li.insetbtn a { 
+                    display: block; 
+                    color:orange; 
+                    font-weight: bold;
+                    text-decoration: none; 
+                    cursor:default; 
+                    margin-bottom: 0; 
+                    text-align: center; 
+                    list-style:none;
+                    padding-bottom:3px;
+                }
         </style>
         </head>
         <body>
