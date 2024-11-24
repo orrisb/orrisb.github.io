@@ -234,7 +234,7 @@ text-align: center;
 list-style:none; 
 padding-bottom:3px;
 }
-*/
+
 nav li a { 
 display: block; 
 color: yellow; 
@@ -246,7 +246,7 @@ nav li a:active {
 background:#aecbff;  
 border: 4px inset #aecbff; 
 }
-/* set general inset button styles 
+ set general inset button styles 
 nav li.insetbtn { 
 border:none;
 }
