@@ -13,18 +13,14 @@
             <meta name="keywords" content="HTML5, Node.js, Jquery">
             <meta name="author"	content="Ian Andolina">
             <link rel="stylesheet" type="text/css" href="./CSS/squaretabs.css" />
-
-		<style>
-			.picture {
-				width: 400px;
-				transform: rotate(45deg);
-				overflow: hidden;
-			}
-			.picture, img {
-				max-width: 100%;
-				transform: rotate(-45deg);			
-			}
-		</style>
+                img {
+		    clip-path: polygon(50% 0, 100% 50%,
+		                       50% 100%, 0 50%);
+		    transition: 1s clip-path;
+		}
+		img:hover{
+		    clip-path: polygon(0% 0, 100% 0%,
+		                       100% 100%, 0 100%);		}
              <!-- Favicon-->
 	        <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/img/HTMLBadge.ico">
 	        <link rel="icon" type="image/x-icon" href="../Bootstrap/dist/assets/favicon.ico">	
