@@ -161,14 +161,12 @@ nav a.active:hover {
 }
 	
 nav { 
-        float:left; 
-        width:25%; 
+         
         color: white;
-text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-font-size: 125%;
-line-height: 1.5;
-border-width: 10px;
-border-left-width: 0;
+        text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
+        font-size: 125%;
+        line-height: 1.5;
+
 }
 article { float:right; width:70%; background-color:#FF9966; margin-bottom:2rem; text-align: center;
 	 padding: .3em .8em;	
