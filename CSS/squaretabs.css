@@ -147,7 +147,7 @@ nav a.active:hover {
 }
 /*set the position of the content to butt up to the menu tabs*/ 
 #content {
-	height: 40.5em;
+	height: 46.5em;
 	margin-top:3.6em; 
 	font : 0.9em/1.3em "bitstream vera sans", verdana, sans-serif;
 	position:relative; 
