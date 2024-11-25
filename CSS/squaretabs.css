@@ -154,7 +154,7 @@ nav a.active:hover {
 	top:-13px; 
 	text-align: left; 
 	background: #cfecf5;
-	padding: 20px;
+	
 	padding: .3em .8em;
         border: 1px solid rgba(0, 0, 0, .1);   
         border-radius: .2em;
@@ -164,8 +164,7 @@ nav a.active:hover {
         font-size: 100%;
         line-height: 1.5;
         border-width: 10px;
-        border-left-width: 0;	
-	border: 1px solid black; 
+        border-left-width: 0;	 
 	border-top: none; 
 	z-index: 2;
 }
