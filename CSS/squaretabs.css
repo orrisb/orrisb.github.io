@@ -28,7 +28,7 @@ img:hover{
 }
 body {
 	text-align:center; 
-	margin: 0px; 
+	margin: .2em; 
 	background: #bee8ff; 
 	font: medium arial;
         padding: .3em .8em;
