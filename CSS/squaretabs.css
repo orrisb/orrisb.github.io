@@ -9,7 +9,7 @@ header, footer, section, article, nav {
 }
 .picture {
 	width: 200px;
-	transform: rotate(45deg);
+	transform: rotate(10deg);
 	overflow: hidden;
 }
 .picture {
