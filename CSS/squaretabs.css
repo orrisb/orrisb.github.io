@@ -161,7 +161,7 @@ nav a.active:hover {
 }
 	
 nav { 
-         
+      width: 100%;   
         color: white;
         text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
         font-size: 125%;
