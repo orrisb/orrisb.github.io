@@ -45,7 +45,7 @@ body {
 }
 #container {
 	width:960px; 
-	margin:-10px auto 0 auto; 
+	margin:5px auto 0 auto; 
 	    padding: .3em .8em;
         border: 1px solid rgba(0, 0, 0, .1);
         background: #58a linear-gradient(#FF9966, #58a);
