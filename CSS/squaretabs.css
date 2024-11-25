@@ -1,4 +1,4 @@
-﻿/* Set styles to equalise browser rendition*/
+/* Set styles to equalise browser rendition*/
 html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {  
 	padding: 0; 
 	margin: 0; 
@@ -91,8 +91,9 @@ h1 {
 /*set the generic tab style--and set position so that it overlaps the header*/ 
 nav {
 	position:relative; 
-	top:-13px; 
+	top:-10px; 
 	color: navy; 
+	
 	margin: -25px 0 0 0; 
 	padding: 0px; 
 	padding-left: 10px; 
