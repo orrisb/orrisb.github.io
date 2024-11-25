@@ -14,7 +14,7 @@ header, footer, section, article, nav {
 }
 .picture {
 	max-width: 100%;
-	transform: rotate(-45deg); scale(1.42);
+	transform: rotate(-45deg) scale(1.42);
 	overflow: hidden;
 }                
 img {
@@ -80,7 +80,7 @@ header {
 }
 h1 {
 	font-family:Arial; 
-        font-size:200%; 
+        font-size:125%; 
         color:white; 
         font-weight:normal; 
         text-align:center;  
