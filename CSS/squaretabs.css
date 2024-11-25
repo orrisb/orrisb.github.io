@@ -101,7 +101,7 @@ h1 {
 /*set the generic tab style--and set position so that it overlaps the header*/ 
 nav {
 	position:relative; 
-	top:25px; 
+	top:39px; 
 	color: navy; 
 	
 	margin: -25px 0 0 0; 
