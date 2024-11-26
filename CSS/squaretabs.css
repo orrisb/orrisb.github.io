@@ -34,7 +34,7 @@ body {
         padding: .3em .8em;
         clip-path:polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 
 			  100% calc(100% - 20px), calc(100% - 20px) 100%,
-			  20px 100%, 0 calc(100% - 2opx), 0 20px);
+			  20px 100%, 0 calc(100% - 20px), 0 20px);
 			  
         background: #58a linear-gradient(#FF9966, #58a);
         border-radius: .2em;
