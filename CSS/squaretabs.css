@@ -43,7 +43,7 @@ body {
         box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
         color: white;
         text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
-        font-size: 77%;
+        font-size: 125%;
         line-height: 1.5;
         border-width: 10px;
         border-left-width: 0;
@@ -111,7 +111,7 @@ header {
 /*set the generic tab style--and set position so that it overlaps the header*/ 
 nav {
 	position:relative; 
-	top:39px; 
+	top:4.9rem; 
 	color: navy; 
 	
 	margin: -25px 0 0 0; 
