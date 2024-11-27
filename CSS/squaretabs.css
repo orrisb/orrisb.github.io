@@ -80,7 +80,7 @@ header {
         border-width: 10px;
         border-left-width: 0; 
 }
-h1 {
+ /* h1 {
 	font-family:Arial; 
         font-size:125%; 
     color: white;
@@ -97,7 +97,7 @@ h1 {
         margin:auto;
         padding: .3em .8em;
         border: 1px solid rgba(0, 0, 0, .1);
-        /* background: #58a linear-gradient(#FF9966, #58a); */
+        background: #58a linear-gradient(#FF9966, #58a); 
         border-radius: .2em;
         box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
         color: white;
@@ -105,7 +105,7 @@ h1 {
         line-height: 5.5;
         border-width: 10px;
         border-left-width: 0;
-}
+}*/
 /*set the generic tab style--and set position so that it overlaps the header*/ 
 nav {
 	position:relative; 
