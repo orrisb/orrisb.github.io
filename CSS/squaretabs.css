@@ -87,8 +87,7 @@ clip-path:polygon(20px 0, calc(100% - 20px) 0, 100% 20px,
 			  20px 100%, 0 calc(100% - 20px), 0 20px);
 }
 
-#container {
-	width:60em; 
+#container { 
 	margin:5px auto 0 auto; 
 	    padding: .3em .8em;
         border: 1px solid rgba(0, 0, 0, .1);
@@ -203,7 +202,7 @@ header {
 /*set the position of the content to butt up to the menu tabs*/ 
 #content {
 	height: 54.5em;
-	margin-top:3.77em; 
+	margin-top:0.23em; 
 	position:relative; 
 	top:.1rem; 
 	text-align: left; 
@@ -223,7 +222,7 @@ header {
 	z-index: 2;
 }
 	
-nav { 
+#hnav { 
       width: 95%;   
         color: white;
         text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
