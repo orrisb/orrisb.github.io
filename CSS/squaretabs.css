@@ -201,7 +201,7 @@ header {
 }
 /*set the position of the content to butt up to the menu tabs*/ 
 #content {
-	height: 54.5em;
+	height: 23em;
 	margin-top:0.23em; 
 	position:relative; 
 	top:4.3rem; 
