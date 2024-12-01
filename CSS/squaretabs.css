@@ -113,10 +113,11 @@ header {
 	clip-path:polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 
 			  100% calc(100% - 20px), calc(100% - 20px) 100%,
 			  20px 100%, 0 calc(100% - 20px), 0 20px);}
- /* h1 {
+    h1 {
 	font-family:Arial; 
-        font-size:125%; 
-    color: white;
+        display: block;
+    color: #a37229;
+    font-size: 185%;
     background: hsl(0,50%,45%);
     text-shadow: 1px 1px black, 2px 2px black,
     3px 3px black, 4px 4px black,
@@ -133,12 +134,12 @@ header {
         background: #58a linear-gradient(#FF9966, #58a); 
         border-radius: .2em;
         box-shadow: 0 .05em .25em rgba(0, 0, 0, .5);
-        color: white;
+        
         text-shadow: 0 -.05em .05em rgba(0, 0, 0, .5);
         line-height: 5.5;
         border-width: 10px;
         border-left-width: 0;
-}*/
+    }
 /*set the generic tab style--and set position so that it overlaps the header*/ 
 #hnav {
 	position:relative; 
