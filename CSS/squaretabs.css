@@ -95,7 +95,7 @@ header {
 	margin-top:0.2em; 
         height: 10rem; 
         width:96.7%; 
-        background-image:url('images/bluepan.jpg'); 
+        background-image:url('./CSS/images/bluepan.jpg'); 
         background-repeat:no-repeat; 
         background-position: center;
         border-bottom:0;
@@ -383,7 +383,7 @@ header figure {
   border-width: 0 3px 4px 0;
   border-radius: 50%;
   margin: .6em 0 .5em 1em;
-  background: url(images/juliancheal.jpg) no-repeat, linear-gradient(black, black), url(images/leather.png) #805100;
+  background: url(./CSS/images/juliancheal.jpg) no-repeat, linear-gradient(black, black), url(./CSS/images/leather.png) #805100;
   background-position: 0% 100%, 0% 100%, 0% 100%;
   background-size: auto 100%, auto;
   background-clip: content-box, content-box, border-box;
