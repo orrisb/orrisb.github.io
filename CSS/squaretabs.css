@@ -8,7 +8,7 @@ html, body {
   min-height: 100%; }
 
 html {
-  background: #302722 url("./CSS/images/tweed.jpg") fixed;
+  background: #302722 url("CSS/images/tweed.jpg") fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.6), transparent) top left repeat-x, url("./CSS/images/tweed.jpg") #2e241f;
   background-size: 100% 300px, auto; }
 
